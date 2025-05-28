@@ -47,7 +47,7 @@ export default function ProductsPage() {
 
       {/* Why Choose Us */}
       <div className="mt-16 py-16 bg-[#2d1a75] text-white text-center">
-        <h2 className="text-3xl font-bold mb-6">Why Choose Baker's Inn?</h2>
+        <h2 className="text-3xl font-bold mb-6">Why Choose Baker&apos;s Inn?</h2>
         <p className="max-w-2xl mx-auto text-lg">
           We bake with passion, ensuring quality, freshness, and great taste in every bite.
         </p>

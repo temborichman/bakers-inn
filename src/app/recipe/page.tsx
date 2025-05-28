@@ -27,7 +27,7 @@ export default function RecipePage() {
       <div className="text-center mb-16">
         <h2 className="text-4xl font-bold text-[#2d1a75] mb-4">Welcome to Our Recipe Collection</h2>
         <p className="mt-4 text-xl text-gray-700 max-w-3xl mx-auto">
-          Explore a variety of delicious recipes that are perfect for every occasion. From kid-friendly meals to healthy vegan options and hearty family favorites, we’ve got something for everyone.
+          Explore a variety of delicious recipes that are perfect for every occasion. From kid-friendly meals to healthy vegan options and hearty family favorites, we've got something for everyone.
         </p>
       </div>
 
@@ -117,20 +117,20 @@ export default function RecipePage() {
         <div className="text-center mb-12">
           <h3 className="text-3xl font-bold text-[#2d1a75] mb-4">What Our Customers Say</h3>
           <p className="text-xl text-gray-700 max-w-2xl mx-auto">
-            Hear from our satisfied customers who’ve enjoyed our recipes and brought them to their own tables!
+            Hear from our satisfied customers who've enjoyed our recipes and brought them to their own tables!
           </p>
         </div>
         <div className="flex justify-center gap-16">
           <div className="bg-white shadow-lg rounded-lg p-8 transform transition duration-500 hover:scale-105">
             <p className="text-lg text-gray-600 mb-4">
-              "These recipes have transformed our family dinners. Easy to follow, delicious, and loved by everyone!"
+              &quot;These recipes have transformed our family dinners. Easy to follow, delicious, and loved by everyone!&quot;
             </p>
             <p className="text-xl font-bold text-[#2d1a75]">Sarah T.</p>
             <p className="text-gray-500">Home Cook</p>
           </div>
           <div className="bg-white shadow-lg rounded-lg p-8 transform transition duration-500 hover:scale-105">
             <p className="text-lg text-gray-600 mb-4">
-              "As a vegan, it's hard to find great tasting recipes, but these vegan options are fantastic!"
+              &quot;As a vegan, it&apos;s hard to find great tasting recipes, but these vegan options are fantastic!&quot;
             </p>
             <p className="text-xl font-bold text-[#2d1a75]">John D.</p>
             <p className="text-gray-500">Vegan Enthusiast</p>

@@ -110,9 +110,7 @@ export default function Recipe() {
 
   return (
     <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-      <h2 className="text-4xl md:text-5xl font-bold text-[#2d1a75] text-center mb-12 animate__animated animate__fadeIn">
-        Baker's Recipes
-      </h2>
+      <h2 className="text-4xl font-bold text-[#2d1a75] mb-4">Welcome to Our Recipe Collection</h2>
 
       <div className="mb-12">
         <StyledTabs value={value} onChange={handleChange} centered aria-label="recipe categories">
@@ -121,6 +119,8 @@ export default function Recipe() {
           <StyledTab label="For Family" />
         </StyledTabs>
       </div>
+
+      <h3 className="text-3xl font-bold text-[#2d1a75] mb-8">Browse by Category</h3>
 
       <div className="grid md:grid-cols-3 gap-8">
         {selectedRecipes.map((recipe) => (
@@ -155,6 +155,16 @@ export default function Recipe() {
           </div>
         ))}
       </div>
+
+      <h3 className="text-3xl font-bold text-[#2d1a75] mb-8">Featured Recipe</h3>
+
+      <p className="text-lg text-gray-600 mb-4">
+        "These recipes have transformed our family dinners. Easy to follow, delicious, and loved by everyone!"
+      </p>
+
+      <p className="text-lg text-gray-600 mb-4">
+        "As a vegan, it&apos;s hard to find great tasting recipes, but these vegan options are fantastic!"
+      </p>
     </div>
   )
 }

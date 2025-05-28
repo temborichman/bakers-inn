@@ -38,9 +38,9 @@ export default function AboutPage() {
         </div>
         <div>
           <p className="text-gray-700 mb-8">
-            It all started back in the eighties when Baker's Inn was just a small confectionery company that employed 40
+            It all started back in the eighties when Baker&apos;s Inn was just a small confectionery company that employed 40
             people and produced about 30,000 loaves a day. We now aim to provide a nourishing, convenient, and accessible
-            answer to hunger's call.
+            answer to hunger&apos;s call.
           </p>
           <GoldButton variant="contained" className="hover:scale-110 transition-transform duration-300">
             READ MORE
@@ -68,8 +68,8 @@ export default function AboutPage() {
         <div>
           <h2 className="text-4xl font-bold text-[#2d1a75]">Our Story</h2>
           <p className="text-gray-700 mt-4 leading-relaxed">
-            Baker's Inn started as a small confectionery with just 40 employees, baking 30,000 loaves a day. Over the years,
-            we've grown into a beloved brand, known for delicious breads, pastries, and cakes. Our commitment is to bring fresh
+            Baker&apos;s Inn started as a small confectionery with just 40 employees, baking 30,000 loaves a day. Over the years,
+            we&apos;ve grown into a beloved brand, known for delicious breads, pastries, and cakes. Our commitment is to bring fresh
             and high-quality products to your table.
           </p>
         </div>
@@ -87,7 +87,7 @@ export default function AboutPage() {
         <div className="max-w-6xl mx-auto px-6 md:px-12">
           <h2 className="text-4xl font-bold text-[#2d1a75]">Our Values</h2>
           <p className="text-gray-600 mt-3 max-w-3xl mx-auto">
-            At Baker’s Inn, we believe in quality, freshness, and community. Every loaf, pastry, and cake we make is crafted with these values at heart.
+            At Baker&apos;s Inn, we believe in quality, freshness, and community. Every loaf, pastry, and cake we make is crafted with these values at heart.
           </p>
           <div className="grid md:grid-cols-3 gap-6 mt-10">
             {[{ title: "Quality Ingredients", desc: "We source the finest ingredients to ensure exceptional taste and nutrition." },
@@ -126,7 +126,7 @@ export default function AboutPage() {
         <div className="max-w-6xl mx-auto px-6 md:px-12">
           <h2 className="text-4xl font-bold text-[#2d1a75]">What Our Customers Say</h2>
           <div className="grid md:grid-cols-3 gap-6 mt-10">
-            {["The best bread I’ve ever had! Always fresh and delicious. Highly recommended!", "I love their pastries! You can taste the quality in every bite.", "Baker’s Inn has been my go-to bakery for years. The flavors are simply amazing!"].map((quote, index) => (
+            {["The best bread I&apos;ve ever had! Always fresh and delicious. Highly recommended!", "I love their pastries! You can taste the quality in every bite.", "Baker&apos;s Inn has been my go-to bakery for years. The flavors are simply amazing!"].map((quote, index) => (
               <div key={index} className="p-6 bg-white shadow-lg rounded-lg hover:scale-105 transition-transform duration-300">
                 <p className="text-gray-600">"{quote}"</p>
               </div>

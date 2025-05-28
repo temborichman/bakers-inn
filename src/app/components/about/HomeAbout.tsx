@@ -41,9 +41,9 @@ export default function HomeAbout() {
           whileHover={{ scale: 1.05 }}  // Scale text slightly on hover
         >
           <p className="text-gray-700 mb-8">
-            It all started back in the eighties when Baker's Inn was just a small confectionery company that employed 40
-            people and produced about 30,000 loaves a day. We now aim to provide a nourishing, convenient and accessible
-            answer to hunger's call.
+            It all started back in the eighties when Baker&apos;s Inn was just a small confectionery company that employed 40
+            people and produced about 30,000 loaves a day. We now aim to provide a nourishing, convenient, and accessible
+            answer to hunger&apos;s call.
           </p>
           <Link href="/about" passHref>
             <GoldButton variant="contained">READ MORE</GoldButton>

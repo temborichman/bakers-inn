@@ -2,26 +2,18 @@
 
 import { useState } from "react"
 import Image from "next/image"
-import FormControl from "@mui/material/FormControl";
-import Select from "@mui/material/Select";
-import MenuItem from "@mui/material/MenuItem";
-import InputLabel from "@mui/material/InputLabel";
 import IconButton from "@mui/material/IconButton";
 import CloseIcon from "@mui/icons-material/Close";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import {
   Button,
   Dialog,
-  DialogTitle,
-  DialogContent,
-  DialogActions,
   TextField,
   Checkbox,
   FormControlLabel,
-  Typography,
-  Box,
+  Select,
+  MenuItem,
 } from "@mui/material"
-import { DatePicker } from "@mui/x-date-pickers/DatePicker"
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider"
 import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns"
 
@@ -44,26 +36,7 @@ const FactoryTour = () => {
     const handleOpen = () => setOpen(true)
     const handleClose = () => setOpen(false)
   
-    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
-        const { name, value, type } = e.target as HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement;
-      
-        setFormData({
-          ...formData,
-          [name]: type === "checkbox" ? (e.target as HTMLInputElement).checked : value,
-        });
-      };
-      
-      
-  
-    const handleDateChange = (date: Date | null) => {
-        setFormData({
-          ...formData,
-          visitDate: date,
-        });
-      };
-      
-  
-      const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         console.log("Form submitted:", formData);
         handleClose();

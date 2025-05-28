@@ -2,19 +2,13 @@
 
 import { useState } from "react"
 import Image from "next/image"
-import FormControl from "@mui/material/FormControl"
-import Select from "@mui/material/Select"
-import MenuItem from "@mui/material/MenuItem"
-import InputLabel from "@mui/material/InputLabel"
 import IconButton from "@mui/material/IconButton"
 import CloseIcon from "@mui/icons-material/Close"
-import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown"
 import {
   Button,
   Dialog,
   DialogTitle,
   DialogContent,
-  DialogActions,
   TextField,
   Typography,
 } from "@mui/material"
@@ -175,7 +169,7 @@ const Request = () => {
                     />
                     <TextField
                       name="telephone"
-                      placeholder="Contact Person’s Telephone"
+                      placeholder="Contact Person's Telephone"
                       fullWidth
                       variant="outlined"
                       value={formData.telephone}
@@ -183,7 +177,7 @@ const Request = () => {
                     />
                     <TextField
                       name="email"
-                      placeholder="Contact Person’s E-mail"
+                      placeholder="Contact Person's E-mail"
                       fullWidth
                       variant="outlined"
                       value={formData.email}
@@ -246,7 +240,7 @@ const Request = () => {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <TextField
                       name="additionalContactName"
-                      placeholder="Additional Contact Person’s Name"
+                      placeholder="Additional Contact Person's Name"
                       fullWidth
                       variant="outlined"
                       value={formData.additionalContactName}
@@ -254,7 +248,7 @@ const Request = () => {
                     />
                     <TextField
                       name="additionalContactEmail"
-                      placeholder="Additional Contact Person’s E-mail"
+                      placeholder="Additional Contact Person's E-mail"
                       fullWidth
                       variant="outlined"
                       value={formData.additionalContactEmail}
