@@ -10,7 +10,7 @@ const Hero = () => {
       {/* Main container */}
       <div className="w-full max-w-screen-xl mx-auto relative">
         {/* Blue card */}
-        <div className="bg-[#352483] rounded-xl shadow-xl p-6 md:p-10 lg:p-12 pb-16 text-white flex flex-col lg:flex-row justify-between">
+        <div className="bg-[#142064] rounded-xl shadow-xl p-6 md:p-10 lg:p-12 pb-16 text-white flex flex-col lg:flex-row justify-between">
           <div className="text-white flex flex-col gap-6 max-w-2xl relative z-10">
             <h1 className="text-4xl font-bold leading-tight md:text-5xl lg:text-6xl">
               Bringing you the<br />{' '}

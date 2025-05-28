@@ -6,7 +6,7 @@ import { Twitter, Facebook, LinkedIn, Phone, Email } from "@mui/icons-material"
 
 export default function Footer() {
   return (
-    <footer className="bg-[#2d1a75] text-white">
+    <footer className="bg-[#142064] text-white">
       {/* Top logo section */}
       <div className="container mx-auto px-4 pt-8 pb-4">
         <div className="flex items-center justify-center">

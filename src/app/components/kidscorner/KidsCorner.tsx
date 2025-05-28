@@ -21,7 +21,7 @@ const PlayButton = styled(Button)({
 export default function KidsCorner() {
   return (
     <div className="max-full bg-white mx-auto my-8 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
-      <div className="relative bg-[#352483] rounded-lg overflow-hidden">
+      <div className="relative bg-[#142064] rounded-lg overflow-hidden">
         {/* Background pattern - subtle game icons */}
         <div className="absolute inset-0 opacity-10">
           <div className="w-full h-full bg-[url('/placeholder.svg')] bg-repeat"></div>
