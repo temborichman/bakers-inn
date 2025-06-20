@@ -27,7 +27,7 @@ export default function RecipePage() {
       <div className="text-center mb-16">
         <h2 className="text-4xl font-bold text-[#2d1a75] mb-4">Welcome to Our Recipe Collection</h2>
         <p className="mt-4 text-xl text-gray-700 max-w-3xl mx-auto">
-          Explore a variety of delicious recipes that are perfect for every occasion. From kid-friendly meals to healthy vegan options and hearty family favorites, we've got something for everyone.
+          Explore a variety of delicious recipes that are perfect for every occasion. From kid-friendly meals to healthy vegan options and hearty family favorites, we&apos;ve got something for everyone.
         </p>
       </div>
 
@@ -117,7 +117,7 @@ export default function RecipePage() {
         <div className="text-center mb-12">
           <h3 className="text-3xl font-bold text-[#2d1a75] mb-4">What Our Customers Say</h3>
           <p className="text-xl text-gray-700 max-w-2xl mx-auto">
-            Hear from our satisfied customers who've enjoyed our recipes and brought them to their own tables!
+            Hear from our satisfied customers who&apos;ve enjoyed our recipes and brought them to their own tables!
           </p>
         </div>
         <div className="flex justify-center gap-16">
