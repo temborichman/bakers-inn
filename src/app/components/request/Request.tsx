@@ -201,11 +201,11 @@ const Request = () => {
                       onChange={handleChange}
                     />
                     <DatePicker
-      label="Date of Event"
-      value={formData.eventDate}
-      onChange={handleDateChange}
-      renderInput={(params: unknown) => <TextField {...params} />}
-    />
+                      label="Date of Event"
+                      value={formData.eventDate}
+                      onChange={handleDateChange}
+                      slotProps={{ textField: { fullWidth: true, variant: 'outlined' } }}
+                    />
                     <TextField
                       name="intendedUse"
                       placeholder="Intended Use of Donations"
