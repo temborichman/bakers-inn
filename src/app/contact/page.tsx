@@ -3,7 +3,6 @@
 import { useState } from 'react';
 import { Button, TextField, Card, CardContent, IconButton } from '@mui/material';
 import Image from 'next/image';
-import Link from 'next/link';
 import EmailIcon from '@mui/icons-material/Email';
 import PhoneIcon from '@mui/icons-material/Phone';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
@@ -27,7 +26,7 @@ export default function ContactPage() {
       {/* Hero Header */}
       <div className="bg-gradient-to-r from-[#352483] to-[#4B8EFD] rounded-3xl shadow-lg p-10 mb-16 text-center animate-fade-in">
         <h1 className="text-5xl font-extrabold text-white mb-4 drop-shadow-lg">Contact Us</h1>
-        <p className="text-xl text-white/90 mb-2">We'd love to hear from you! Reach out for questions, feedback, or just to say hello.</p>
+        <p className="text-xl text-white/90 mb-2">We&apos;d love to hear from you! Reach out for questions, feedback, or just to say hello.</p>
       </div>
 
       {/* Contact Information Section */}

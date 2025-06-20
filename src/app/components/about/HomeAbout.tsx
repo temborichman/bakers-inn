@@ -31,7 +31,7 @@ export default function HomeAbout() {
           transition={{ duration: 0.6 }}
           whileHover={{ scale: 1.05 }}  // Scale text slightly on hover
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-[#2d1a75]">About Baker's Inn</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-[#2d1a75]">About Baker&apos;s Inn</h2>
         </motion.div>
 
         <motion.div

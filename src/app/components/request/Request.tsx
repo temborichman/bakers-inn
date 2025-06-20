@@ -82,7 +82,7 @@ const Request = () => {
 </h2>
 
         <p className="text-[#2d1a75]">
-          You can apply for product donations by completing this form. We will contact you should your application be successful. Please bear in mind that we will need at least 3 weeks' notice before the date of your event.
+          You can apply for product donations by completing this form. We will contact you should your application be successful. Please bear in mind that we will need at least 3 weeks&apos; notice before the date of your event.
         </p>
         <Button
           variant="contained"
@@ -169,7 +169,7 @@ const Request = () => {
                     />
                     <TextField
                       name="telephone"
-                      placeholder="Contact Person's Telephone"
+                      placeholder="Contact Person&apos;s Telephone"
                       fullWidth
                       variant="outlined"
                       value={formData.telephone}
@@ -177,7 +177,7 @@ const Request = () => {
                     />
                     <TextField
                       name="email"
-                      placeholder="Contact Person's E-mail"
+                      placeholder="Contact Person&apos;s E-mail"
                       fullWidth
                       variant="outlined"
                       value={formData.email}
@@ -187,7 +187,7 @@ const Request = () => {
       label="Date of Event"
       value={formData.eventDate}
       onChange={handleDateChange}
-      renderInput={(params: any) => <TextField {...params} />}
+      renderInput={(params: unknown) => <TextField {...params} />}
     />
                     <TextField
                       name="intendedUse"
@@ -240,7 +240,7 @@ const Request = () => {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <TextField
                       name="additionalContactName"
-                      placeholder="Additional Contact Person's Name"
+                      placeholder="Additional Contact Person&apos;s Name"
                       fullWidth
                       variant="outlined"
                       value={formData.additionalContactName}
@@ -248,7 +248,7 @@ const Request = () => {
                     />
                     <TextField
                       name="additionalContactEmail"
-                      placeholder="Additional Contact Person's E-mail"
+                      placeholder="Additional Contact Person&apos;s E-mail"
                       fullWidth
                       variant="outlined"
                       value={formData.additionalContactEmail}

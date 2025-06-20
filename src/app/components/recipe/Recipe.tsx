@@ -159,11 +159,11 @@ export default function Recipe() {
       <h3 className="text-3xl font-bold text-[#2d1a75] mb-8">Featured Recipe</h3>
 
       <p className="text-lg text-gray-600 mb-4">
-        "These recipes have transformed our family dinners. Easy to follow, delicious, and loved by everyone!"
+        &quot;These recipes have transformed our family dinners. Easy to follow, delicious, and loved by everyone!&quot;
       </p>
 
       <p className="text-lg text-gray-600 mb-4">
-        "As a vegan, it&apos;s hard to find great tasting recipes, but these vegan options are fantastic!"
+        &quot;As a vegan, it&apos;s hard to find great tasting recipes, but these vegan options are fantastic!&quot;
       </p>
     </div>
   )

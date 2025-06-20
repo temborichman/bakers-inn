@@ -34,7 +34,7 @@ export default function AboutPage() {
       {/* About Section */}
       <div className="grid md:grid-cols-2 gap-12 mb-16 items-start fade-in">
         <div>
-          <h2 className="text-4xl md:text-5xl font-bold text-[#2d1a75]">About Baker's Inn</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-[#2d1a75]">About Baker&apos;s Inn</h2>
         </div>
         <div>
           <p className="text-gray-700 mb-8">
@@ -128,7 +128,7 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-3 gap-6 mt-10">
             {["The best bread I&apos;ve ever had! Always fresh and delicious. Highly recommended!", "I love their pastries! You can taste the quality in every bite.", "Baker&apos;s Inn has been my go-to bakery for years. The flavors are simply amazing!"].map((quote, index) => (
               <div key={index} className="p-6 bg-white shadow-lg rounded-lg hover:scale-105 transition-transform duration-300">
-                <p className="text-gray-600">"{quote}"</p>
+                <p className="text-gray-600">&quot;{quote}&quot;</p>
               </div>
             ))}
           </div>
