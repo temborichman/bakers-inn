@@ -16,10 +16,27 @@ import { DatePicker } from "@mui/x-date-pickers/DatePicker"
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider"
 import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns"
 
+// Add a type for formData
+interface RequestFormData {
+  organizationName: string;
+  contactName: string;
+  position: string;
+  address: string;
+  telephone: string;
+  email: string;
+  eventDate: Date | null;
+  intendedUse: string;
+  numberOfAttendants: string;
+  productWanted: string;
+  additionalContactName: string;
+  additionalContactEmail: string;
+  donationReason: string;
+}
+
 const Request = () => {
   const [open, setOpen] = useState(false)
   const [step, setStep] = useState(1) // 1 for Step 1, 2 for Step 2
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState<RequestFormData>({
     organizationName: "",
     contactName: "",
     position: "",
