@@ -24,20 +24,20 @@ export default function Games() {
     {
       title: "Super Mario Bros",
       description: "Join Mario and his friends in this fun adventure!",
-      image: "/images/mario_game.png",
-      link: "https://www.example.com/super-mario",
+      image: "/images/smario.jpg",
+      link: "https://supermario-game.com/",
     },
     {
       title: "Puzzle Adventure",
       description: "Solve puzzles and explore magical worlds!",
-      image: "/images/puzzle_game.png",
-      link: "https://www.example.com/puzzle-adventure",
+      image: "/images/puz.jpg",
+      link: "https://www.jigsawexplorer.com/",
     },
     {
       title: "Animal Quest",
       description: "Embark on a journey with cute animals!",
-      image: "/images/animal_game.png",
-      link: "https://www.example.com/animal-quest",
+      image: "/images/animal.jpg",
+      link: "https://www.playdosgames.com/online/animal-quest/",
     },
   ]
 

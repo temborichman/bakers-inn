@@ -46,7 +46,7 @@ export default function HomeAbout() {
             answer to hunger&apos;s call.
           </p>
           <Link href="/about" passHref>
-            <GoldButton variant="contained">READ MORE</GoldButton>
+            <GoldButton variant="contained" sx={{ borderRadius: '5px' }}>READ MORE</GoldButton>
           </Link>
         </motion.div>
       </div>

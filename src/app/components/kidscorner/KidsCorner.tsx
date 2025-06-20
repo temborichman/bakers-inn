@@ -55,7 +55,7 @@ export default function KidsCorner() {
               win exciting monthly prizes!
             </p>
             <PlayButton variant="contained">
-  <Link href="/games">PLAY GAMES</Link>
+  <Link href="/kids-corner">PLAY GAMES</Link>
 </PlayButton>
 
           </div>
